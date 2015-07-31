@@ -48,3 +48,7 @@ The OLED driver and bindings
   Used to catch and manage unexpected segfaults
 * **exec**:
   Used to execute shell commands from within the script
+
+
+#Future suggestions
+See the issues section
