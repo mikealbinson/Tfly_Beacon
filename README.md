@@ -1,5 +1,5 @@
 # Tfly_Beacon
-###~An implementation of iBeacon technology to take ticket information, verify that the information exists in a database and display the result
+###An implementation of iBeacon technology to take ticket information, verify that the information exists in a database and display the result
 
 I'll break this down by file. If there are any questions/issues, feel free to drop me a line.
 
