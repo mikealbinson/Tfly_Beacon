@@ -31,15 +31,15 @@ The necessary images for the OledDisplay module
 The OLED driver and bindings
 
 ##node_modules
-* Bleno
+* Bleno:
   The javascript beacon API
-* line-reader
+* line-reader:
   As it sounds, used in SdSearch to 
-* png-to-lcd
+* png-to-lcd:
   Used to convert png images to lcd compatible bitmaps
-* replace
+* replace:
   Used to aid the unimplemented SDReplaceFunction
-* segfault-handler
+* segfault-handler:
   Used to catch and manage unexpected segfaults
-* exec
+* exec:
   Used to execute shell commands from within the script
