@@ -52,3 +52,8 @@ The OLED driver and bindings
 
 #Future suggestions
 See the issues section
+
+
+#Relevant Documentation 
+
+Maxsonar EZ: http://www.maxbotix.com/documents/HRLV-MaxSonar-EZ_Datasheet.pdf
