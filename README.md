@@ -21,6 +21,12 @@ Pretty simply manages the initialization and manipulation of the LEDs and the bu
 | endBuzz()          | Disable the pin from sending a PWM pulse to the buzzer | N/A       | N/A     | Differs slightly in that this function completely disables the pin from sending a pulse and the previous only stops the current pulse. These are called one after another in order to correct javascript's asynchronous behavior and to try to help the Edison regulate it's pulses (which, because it lacks an onboard hardware timer, it regularly struggles with). |
 | buzzAdmit()        | Makes the buzzer buzz the admit sequence               | N/A       | N/A     | Occasionally fails to play the first note of the sequence--Not sure why yet                                                                                                                                                                                                                                                                                           |
 | buzzNoAdmit()      | Makes the buzzer buzz the no admit sequence            | N/A       | N/A     | N/A                                                                                                                                                                                                                                                                                                                                                                   |
+#### LED functions
+| Function Name      | Description                                    | Arguments | Returns | Note                                               |
+|--------------------|------------------------------------------------|-----------|---------|----------------------------------------------------|
+| ledFlashAdmit()    | Flashes the green admit LED on for one second  | N/A       | N/A     | N/A                                                |
+| ledFlashNoAdmit()  | Flashes the red no admit LED on for one second | N/A       | N/A     | N/A                                                |
+| ledIndicatorsOff() | Turns off the LED after a second               | N/A       | N/A     | Cannot be called outside the LedsAndBuzzer.js file |
 
 
 --One of the more major issues we arrive at here is the lack of ability of the Edison to control its PWM pulses, which results in inconsistent sounds and occasional failure to fully turn off the buzzer, resulting in a high pitched beep that can only be reset by sending a subsequent pulse.
