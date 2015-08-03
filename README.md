@@ -82,6 +82,8 @@ The OLED driver and bindings
   Used to catch and manage unexpected segfaults
 * **exec**:
   Used to execute shell commands from within the script
+* **machina**:
+  State machine--overall controller for state changes
 
 
 #Future suggestions
