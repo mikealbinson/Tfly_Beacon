@@ -33,6 +33,7 @@ Pretty simply manages the initialization and manipulation of the LEDs and the bu
 
 ##OledDisplay.js
 An upper level manager of the OLED driver--controls deconstructing and passing images to the driver
+
 | Function Name            | Description                                                                           | Arguments | Returns | Note                                          |
 |--------------------------|---------------------------------------------------------------------------------------|-----------|---------|-----------------------------------------------|
 | beginOled()              | Initializes the I2C bus for the OLED screen (see /Node_Indicators/Edison.js for more) | N/A       | N/A     | N/A                                           |
