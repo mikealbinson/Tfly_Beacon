@@ -50,6 +50,10 @@ An upper level manager of the OLED driver--controls deconstructing and passing i
 ##SDReplaceFunction.js
 An unimplemented function for the SdSearch module
 
+| Function Name            | Description                                               | Arguments                                                                                                                                                   | Returns | Note |
+|--------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|------|
+| changeTicketStatusVoid() | Changes the status of the selected ticket line to "Void"  | line: the ticket line from the file being read TicketTypeRetrieve: the ticket type of the ticket you found filePath: the path to the ticket containing file | N/A     |      |
+
 ##SdSearch.js
 Manages the search of the SD card for a specific ticket string. Also manages the upper level ultrasonic tasks as we want to stop taking measurements for a period of time if a 
 
